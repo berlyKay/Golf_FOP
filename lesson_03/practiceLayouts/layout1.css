@@ -1,0 +1,72 @@
+.container-1{
+    display:flex;
+    align-items:flex-end;
+    height: 20%;
+    background-color: red;
+ }
+
+
+.container-2 {
+    display:flex;
+    height: 25%;
+    background-color: orange;
+    /* align-items:flex-end */
+}
+
+.container-3 {
+    display:flex;
+    height: 35%;
+    background-color: yellow;
+
+    /* align-items:flex-end */
+}
+
+.container-4{
+    display:flex;
+    height: 20%;
+    background-color: green;
+}
+
+.container-1 {
+    border:1px solid gray;
+    padding:10px;
+}
+
+.container-2 div{
+    border:1px solid gray;
+    padding:10px;
+}
+
+.container-3 div {
+    border: 1px solid gray;
+    padding:10px
+}
+
+.container-4 {
+    border: 1px solid gray;
+    padding: 10px
+}
+
+.box-1-1 {
+    flex:1
+}
+
+.box-2-1 {
+    flex:1;
+}
+
+.box-2-2 {
+    flex:1;
+}
+
+.box-2-3 {
+    flex:1;
+}
+
+.box-3-1 {
+    flex:1
+}
+
+.box-3-2 {
+    flex:1
+}
