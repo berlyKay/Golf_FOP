@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(136, 99, 136)
+}
+
+section h2 {
+    color: yellow
+}
+
+
+section > article > h2 {
+    color: orange
+}
+
+article {
+    color: red
+}
