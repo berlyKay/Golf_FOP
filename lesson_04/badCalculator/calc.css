@@ -1,0 +1,21 @@
+.numbers {
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.display {
+    border: 2px solid black;
+    height: 25px;
+}
+.one {
+    border: 2px solid black;
+}
+
+.two {
+    border: 2px solid black;
+}
+
+.three {
+    border: 2px solid black;
+}
