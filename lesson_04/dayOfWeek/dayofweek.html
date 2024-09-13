@@ -18,17 +18,21 @@ day of the week. Make sure your application is case insensitive so
 Saturday is treated the same as SATURDAY or SaTURdaY -->
 
 <body>
+    <div class="day_of_week">
+        <h1>Weekend or Weekday???</h1>
+    </div>
+    <div class="entry">
+        <form >
+            <label for="day"> Day of the week: </label>
+            <input id="day" type="text" placeholder="Day of the week">
+        </form>
+        <button id="check" type="button" name="button">check</button>
+    </div>
 
-    <h1>What is today?</h1>
+    <div class="placeholder">
 
-    <form>
-        <label for="day"> Day of the week: </label>
-        <input id="day" type="text" placeholder="Day of the week">
-    </form>
-
-    <button id="check" type="button" name="button">check</button>
-
-    <h2 id="placeToSee"></h2>
+        <h2 id="placeToSee"></h2>
+    </div>
 
 </body>
 

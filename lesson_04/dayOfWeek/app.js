@@ -6,7 +6,7 @@ function checkDay() {
   const day = document.querySelector('#day').value
 
   if (!(valid_days.includes(day.toLowerCase()))) {
-    document.querySelector('#placeToSee').innerText = "Please enter valid day."
+    document.querySelector('#placeToSee').innerText = "Nice try! Please enter a valid day."
   } else {
     answer = day[0].toLowerCase() === 's' ? "Weekend" : "Weekday"
     document.querySelector('#placeToSee').innerText = answer
