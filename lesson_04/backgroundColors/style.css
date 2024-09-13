@@ -1,0 +1,45 @@
+body {
+    /* background-color: blue; */
+}
+
+.row_of_colors {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box_1 {
+    border: 2px solid black;
+    flex: 1;
+    padding: 5px;
+}
+
+.box_2 {
+    border: 2px solid black;
+    flex: 1;
+    padding: 5px;
+}
+
+.box_3 {
+    border: 2px solid black;
+    flex: 1;
+    padding: 5px;
+}
+
+.box_4 {
+    border: 2px solid black;
+    flex: 1;
+    padding: 5px;
+}
+
+.box_5 {
+    border: 2px solid black;
+    flex: 1;
+    padding: 5px;
+}
+
+.box_6 {
+    border: 2px solid black;
+    flex: 1;
+    padding: 5px;
+}

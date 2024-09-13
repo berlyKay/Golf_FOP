@@ -1,5 +1,5 @@
 document.querySelector("#turnRed").addEventListener("click", turnRedFunction);
-document.querySelector("#turnBlue").addEventListener("click", turnBlueFunction);
+document.querySelector("#blue").addEventListener("click", turnBlueFunction);
 document.querySelector("#turnPurple").addEventListener("click", turnPurpleFunction);
 
 function turnRedFunction() {
@@ -7,7 +7,7 @@ function turnRedFunction() {
 }
 
 function turnBlueFunction() {
-  document.querySelector("body").style.backgroundColor = "blue";
+  document.querySelector("#blue").style.backgroundColor = "blue";
 }
 
 function turnPurpleFunction() {
