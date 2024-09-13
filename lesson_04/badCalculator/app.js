@@ -10,6 +10,11 @@ function makeZero() {
   document.querySelector('#placeToPutResult').innerText = total
 }
 
+function add2() {
+  total = total + 2
+  document.querySelector('#placeToPutResult').innerText = total
+}
+
 function add3() {
   total = total + 3
   document.querySelector('#placeToPutResult').innerText = total
