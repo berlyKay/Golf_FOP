@@ -1,5 +1,36 @@
+h1 {
+    color: blue;
+    text-decoration: underline;
+    background-color: gold
+}
 
+h2 {
+    color: rgb(194, 38, 228);
+    font-weight: bold;
+    font-size: 25px;
+    border: 4px solid orange;
+}
 
+p {
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    height: 200px;
+    width: 50%;
+    border: 4px solid black;
+}
 
+h3 {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 10px solid rgb(200, 231, 200);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
 
-
+h4 {
+    text-shadow: 2px 2px red;
+    text-align: center;
+    letter-spacing: 5px
+}
